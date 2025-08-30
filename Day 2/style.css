@@ -1,0 +1,64 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family:sans-serif;
+    
+}
+
+body{
+    background-color:rgb(234, 232, 245);
+}
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+   
+    
+}
+
+.grade-box{
+    border: 2px solid rgb(107, 168, 218);
+    border-radius: 20px;
+    padding: 27px 22px;
+   
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    box-shadow: 0 0 8px 0 rgba(107, 168, 218,0.8);
+}
+
+#score{
+    font-size: 20px;
+    border: none;
+    height: 35px;
+    border-radius: 12px;
+    padding: 10px;
+   
+   
+}  
+
+#check-btn{
+    display: flex;
+    justify-content: center;
+    
+}
+
+#check-btn button{
+    padding: 10px 15px;
+    background-color: #f3cfcf;
+    border: none;
+    border-radius: 20px;
+    transition: all 0.2s ease-in;
+}
+
+#check-btn button:hover{
+    background-color: #f76565;
+    color: rgb(226, 237, 247);
+    cursor: pointer;
+}
+
+#result{
+    text-align: center;
+}
