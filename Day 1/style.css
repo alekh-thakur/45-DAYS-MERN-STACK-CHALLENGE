@@ -1,0 +1,52 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Forum", serif;
+ 
+  letter-spacing: 2px;
+  
+ 
+}
+
+body{
+    background-color: #f1d7d7;
+}
+
+
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    
+
+}
+
+#business-card{
+    border: 2px solid rgb(238, 73, 73);
+    border-radius: 15px;
+    text-align: center;
+    padding: 10px 12px;
+    box-shadow: 0 0 8px 4px rgba(238, 73, 7,0.2);
+}
+
+#profile{
+    border-radius: 50%;
+    height: 100px;
+    width:  100px;
+}
+
+
+#social-links{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 30px;
+}
+
+.socials{
+    height: 20px;
+    width:  20px;
+    margin-top: 14px;
+}
