@@ -8,7 +8,7 @@ let isLight = true;
 themeBtn.addEventListener("click", () => {
   if (isLight !== false) {
     
-        body.style.background = "linear-gradient(135deg, #423f3fff, #263847ff)";
+        body.style.background = "linear-gradient(120deg, #746f6fff, #33393dff)";
     
     
     themeBox.style.color = "#fff";
