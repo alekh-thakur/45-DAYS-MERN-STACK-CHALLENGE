@@ -1,0 +1,67 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    
+}
+
+body{
+    background: linear-gradient(45deg, #050404,#aa1d1d);
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    transition: all 0.6s ease;
+}
+
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.quote-box{
+    color: aliceblue;
+    padding: 30px 32px;
+    background-color: #252121;
+    box-shadow: 0 0 15px rgba(255,0,0,0.5);
+    border-radius: 15px;
+    text-align: center;
+    
+}
+
+.quote-box h4{
+    margin-top: 14px;
+    opacity: 0.8;
+}
+
+#quote-gen{
+    margin-top: 20px;
+    font-size: 18px;
+    padding: 10px 12px;
+    border: none;
+    border-radius: 15px;
+    transition: all 0.4s ease;
+    background-color: #aa1d1d;
+    color: white;
+    
+}
+
+#quote-gen:hover{
+    cursor: pointer;
+    transform:translateY(-2px);
+    background-color: white;
+    color: #aa1d1d;
+}
+
+#quote-call{
+    margin-top: 20px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: beige;
+    font-weight: 600;
+    
+    opacity: 0;
+    transition: opacity 0.6s ease-in-out;
+}
+
+#quote-call.show{
+    opacity: 1;
+}
