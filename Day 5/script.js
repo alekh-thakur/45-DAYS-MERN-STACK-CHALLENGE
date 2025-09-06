@@ -26,7 +26,7 @@ themeBtn.addEventListener("click", () => {
 
     else {
         
-            body.style.background = "linear-gradient(135deg, #f7f6f6,#8faac2ff)";
+            body.style.background = "linear-gradient(120deg, #f7f6f6,#8faac2ff)";
         
         
         themeBox.style.color = "#000";
