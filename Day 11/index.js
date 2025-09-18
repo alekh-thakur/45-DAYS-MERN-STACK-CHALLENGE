@@ -90,6 +90,6 @@ app.delete("/api/projects/:id", async (req, res) => {
 MongoClient.connect(mongoUrl)
   .then((client) => {
     db = client.db(dbName);
-    app.listen(PORT, () => console.log(`🚀 Server running on http://localhost:${PORT}/projects`));
+    app.listen(PORT, () => console.log(`🚀 Server running on http://localhost:${PORT}/api/projects`));
   })
   .catch((err) => console.error("MongoDB connection failed:", err));
